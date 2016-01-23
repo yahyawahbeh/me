@@ -1,0 +1,96 @@
+@charset "UTF-8";
+@font-face {
+	font-family: Gotham;
+	src: url("http://poddesigns.net/js/Gotham-Bold.ttf");
+}
+@font-face {
+	font-family: Lobster;
+	src: url("http://poddesigns.net/js/Lobster.ttf");
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background-image: url('../images/back-pattern-white.png'), url('../images/back-left.png'), url('../images/back-right.png');
+	background-repeat: repeat, repeat-y, repeat-y;
+	background-position: top left, left, right;
+}
+
+#content > div {
+	width: 100%;
+	position: relative;
+	display: inline-block;
+	min-height: 350px;
+	
+	zoom:1; *display: inline; _height: auto;
+}
+
+#content #home #podLogo {
+	width: 339px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	z-index: 5;
+}
+
+#content #home #message {
+	float: right;
+	margin: -40px 10px 0 0;
+	text-align: right;
+	
+	font-family: Gotham, serif;
+	font-size: 16px;
+	color: #D0E182;
+	font-weight: normal;
+}
+
+#content #home #contactInfo {
+	float: right;
+	margin: -5px 15px 0 0;
+	text-align: right;
+	
+	font-family: Lobster, serif;
+	font-size: 16px;
+	color: #D0E182;
+	font-weight: normal;
+}
+
+img {
+	outline: none;
+	border: none;
+}
+
+a {
+	outline: none;
+	border: none;
+	color: #000;
+}
+
+a:link, a:active, a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font-family: Lobster, Gotham, serif;
+	font-size: 36px;
+	color: #000;
+	font-weight: normal;
+	margin: 0px;
+	display: inline-block;
+	
+	zoom:1; *display: inline; _height: auto;
+}
+
+h2 {
+	font-family: Lobster, Gotham, serif;
+	font-size: 20px;
+	color: #D0E182;
+	font-weight: normal;
+	margin: 0 10px 0 10px;
+	line-height: 22px;
+	display: block;
+}
