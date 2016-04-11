@@ -182,7 +182,7 @@ h2 {
 p {
 	color: #616161;
 	font-family: 'Open Sans';
-	font-size: 15px;
+	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
@@ -207,10 +207,17 @@ p3 {
 	font-variant: normal;
 	font-weight: 400;
 	line-height: 20px;
+	margin-left:20px;
 }
+
+.quote{
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
 p4 {
 	color: #878787;
-	font-family: 'Montserrat' !important;
+	font-family: 'Open Sans' !important;
 	font-size: 12px !important;
 }
 p5 {
@@ -223,6 +230,7 @@ p5 {
 	line-height: 20px;
 	text-align: right !important;
 	float: right;
+	margin-right: 20px;
 }
 
 
