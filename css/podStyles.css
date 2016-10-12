@@ -12,6 +12,11 @@ html, body {
 	
 }
 
+b2{
+	color: #000000;
+	font: bolder;
+}
+
 
 /* photography */
 
@@ -180,7 +185,7 @@ h2 {
 }
 
 p {
-	color: #616161;
+	color: #828282;
 	font-family: 'Open Sans';
 	font-size: 14px;
 	font-style: normal;
